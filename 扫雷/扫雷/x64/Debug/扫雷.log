@@ -1,0 +1,12 @@
+﻿  game.c
+D:\学习\自己的项目\C语言学习\扫雷\扫雷\game.c(110,36): warning C4020: “FindMine”: 实参太多
+D:\学习\自己的项目\C语言学习\扫雷\扫雷\game.c(116,36): warning C4020: “FindMine”: 实参太多
+D:\学习\自己的项目\C语言学习\扫雷\扫雷\game.c(121,34): warning C4020: “FindMine”: 实参太多
+D:\学习\自己的项目\C语言学习\扫雷\扫雷\game.c(126,36): warning C4020: “FindMine”: 实参太多
+D:\学习\自己的项目\C语言学习\扫雷\扫雷\game.c(131,36): warning C4020: “FindMine”: 实参太多
+D:\学习\自己的项目\C语言学习\扫雷\扫雷\game.c(136,36): warning C4020: “FindMine”: 实参太多
+D:\学习\自己的项目\C语言学习\扫雷\扫雷\game.c(141,34): warning C4020: “FindMine”: 实参太多
+D:\学习\自己的项目\C语言学习\扫雷\扫雷\game.c(146,36): warning C4020: “FindMine”: 实参太多
+  test.c
+  正在生成代码...
+  扫雷.vcxproj -> D:\学习\自己的项目\C语言学习\扫雷\x64\Debug\扫雷.exe
