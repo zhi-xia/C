@@ -1,0 +1,16 @@
+					FindMine(mine, show, x-1, y);
+					FindMine(mine, show, x-1, y-1);
+					FindMine(mine, show, x, y-1);
+					FindMine(mine, show, x+1, y-1);
+					FindMine(mine, show, x+1, y);
+					FindMine(mine, show, x+1, y+1);
+					FindMine(mine, show, x, y+1);
+					FindMine(mine, show, x-1, y+1);
+					show[x-1][y] = get_mine_count(mine, x-1, y) + '0';
+					show[x-1][y-1] = get_mine_count(mine, x-1, y-1) + '0';
+					show[x][y-1] = get_mine_count(mine, x, y-1) + '0';
+					show[x+1][y-1] = get_mine_count(mine, x+1, y-1) + '0';
+					show[x+1][y] = get_mine_count(mine, x+1, y) + '0';
+					show[x+1][y+1] = get_mine_count(mine, x+1, y+1) + '0';
+					show[x][y+1] = get_mine_count(mine, x, y+1) + '0';
+					show[x-1][y+1] = get_mine_count(mine, x-1, y+1) + '0';
