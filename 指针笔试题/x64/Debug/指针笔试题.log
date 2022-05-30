@@ -1,0 +1,5 @@
+﻿  test.c
+D:\学习\自己的项目\C语言学习\指针笔试题\test.c(18,34): warning C4311: “类型强制转换”: 从“Test *”到“unsigned long”的指针截断
+D:\学习\自己的项目\C语言学习\指针笔试题\test.c(18,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“unsigned long”
+D:\学习\自己的项目\C语言学习\指针笔试题\test.c(18,9): warning C4313: "printf": 格式字符串中的 "%p" 与类型为 "unsigned long" 的参数 1 冲突
+  指针笔试题.vcxproj -> D:\学习\自己的项目\C语言学习\指针笔试题\x64\Debug\指针笔试题.exe
