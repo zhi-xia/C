@@ -146,11 +146,17 @@ void ModifyContact(struct Contact* ps)
 	}
 }
 
-//比较两个名字的函数
+//按名字排序
 int CmpByName(const void* e1, const void* e2)
 {
 	return strcmp(((struct PeoInfo*)e1)->name, ((struct PeoInfo*)e2)->name);
 }
+//按年龄排序
+int CmpByAge(const void* e1, const void* e2)
+{
+	return ((struct PeoInfo*)e1)->age - ((struct PeoInfo*)e2)->age;
+}
+
 //交换函数
 void Swap(char* buf1, char* buf2, int width)
 {
@@ -181,8 +187,9 @@ void BubbleSort(void* base, int sz, int width, int (*cmp)(void* e1, void* e2))
 		}
 	}
 }
-
+//排序方法
 void SortContact(struct Contact* ps)
 {
-	BubbleSort(ps->data, ps->size, sizeof(ps->data), CmpByName);
+	BubbleSort(ps->data, ps->size, sizeof(ps->data[0]), CmpByAge);
+	printf("排序完成\n");
 }
